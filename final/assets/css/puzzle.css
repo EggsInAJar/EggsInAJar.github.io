@@ -80,20 +80,3 @@ button:active:after {
     opacity: 1;
     transition: 0s;
 }
-
-
-::-webkit-scrollbar {
-    width: 10px;
-}
-
-::-webkit-scrollbar-track {
-    background: rgb(83, 83, 83); 
-}
-
-::-webkit-scrollbar-thumb {
-    background: black; 
-}
-
-::-webkit-scrollbar-thumb:hover {
-    background: rgb(32, 32, 32); 
-}
