@@ -1,0 +1,127 @@
+html body{
+    margin: 0;
+    font-family: 'PT Serif', serif;
+
+}
+
+.navbar {
+    display: flex;
+    background: rgb(0, 0, 0);
+    padding: 25px 8px 25px 25px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.navbar-item {
+    margin-right: 24px;
+    color: white;
+}
+
+.home {
+    background-image: url("../img/pizza.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+
+.title {
+    margin-top: 23%;
+    color: white;
+    font-size: 26px;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+    padding: 10px;
+  }
+  .grid-item {
+
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .menu-items {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-top: 5%;
+    margin-left: 36px;
+  }
+
+  .menu-itemss {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-top: 5%;
+    margin-left: 22px;
+  }
+
+  .menu-item {
+    height: 340px;
+    width: 280px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin-top: 15px;
+    margin-left: 20px
+ }
+
+ .menu-title {
+    font-weight: 600;
+    margin-left: 10px;
+ }
+
+ .ingredients {
+    margin-left: 10px;
+    font-size: 15px;
+    font-weight: 200;
+
+ }
+
+ .price {
+    margin-left: 10px;
+    font-size: 13px;
+    font-weight: 300px;
+ }
+
+ .testi-item {
+    height: auto;
+    width: 280px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin-top: 15px;
+    margin-left: 15px;
+ }
+
+ .description {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 15px;
+    font-weight: 200;
+ }
+
+ #map {
+    top: 0;
+    height: 400px;
+    width: 100%;
+    overflow: auto;
+    margin-top: -30%;
+  }
+
+  .footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    color: white;
+    text-align: center;
+    height: 50px;
+  }
+
